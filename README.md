@@ -58,3 +58,32 @@ Lastly, to activate your virtual environment, run the command ` pipenv shell `! 
 ![installing and activating virtual environment](https://github.com/kcwebers/FlaskSetUpGuide/blob/main/screencaps/venv.png "installing and activating virtual environment")
 
 To deactivate your virtual environment, run the command ` exit `. _**You should ` exit ` your virtual environment when you move onto a new project. Every environment should be unique to the project you are currently working on!**_
+
+### Step 3 - Creating a server.py and templates folder
+
+After you have properly installed everything needed and activated your virtual environment, you can open your project in your code editor. If you have the setting correct, you can open the project directly from your CLI using the command ` code . ` while in the project folder.
+
+In your code editor, create the file ` server.py ` and the folder ` templates ` directly in the project folder [they should appear alongside eachother, next to the Pipfile and the Pipfile.lock].
+
+![server and templates folder](https://github.com/kcwebers/FlaskSetUpGuide/blob/main/screencaps/server_templates.png "server and templates folder")
+
+_**Important note: The folder that will hold your HTML filesmust be called ` templates ` otherwise you will get an error!**_
+
+Next up, add this code to your ` server.py ` as a default:
+
+```PY
+from flask import Flask, render_template, redirect, session, request
+app = Flask(__name__)
+
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+
+
+
+
+if __name__=="__main__":
+    app.run(debug=True)
+```
