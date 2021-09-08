@@ -67,7 +67,7 @@ In your code editor, create the file ` server.py ` and the folder ` templates ` 
 
 ![server and templates folder](https://github.com/kcwebers/FlaskSetUpGuide/blob/main/screencaps/server_templates.png "server and templates folder")
 
-_**Important note: The folder that will hold your HTML filesmust be called ` templates ` otherwise you will get an error!**_
+_**Important note: The folder that will hold your HTML files must be called ` templates ` otherwise you will get an error!**_
 
 Next up, add this code to your ` server.py ` as a default:
 
