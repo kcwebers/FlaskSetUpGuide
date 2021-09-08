@@ -89,3 +89,31 @@ if __name__=="__main__":
 ```
 
 Reminder that the first 2 lines _must_ occur first and the last 2 lines _must_ occur last.
+
+Create a default HTML page to match the route that you have added to your ` server.py `. In this case we called it ` index.html `. Add ` index.html ` tot he previously created ` templates ` folder. You can use the code below as a simple HTML template that already includes the link for Bootstrap!
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Default</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+
+        <h1>Default HTML Page!</h1>
+
+
+    </div>
+</body>
+</html>
+```
+
+Make sure you update the ` <title> ` tag for your project!
+
+### Step 4 - Run your server!
