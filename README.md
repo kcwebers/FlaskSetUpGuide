@@ -18,7 +18,7 @@ Once your project folder has been created, navigate into that folder using the `
 
 ### Step 2 - Creating a virtual environment in your project
 
-Inside of the project folder, in this case the project name is ` sample_project ` we need to do our installs for our virtual environment! You can make sure ` pipenv ` is properly installed on your machine. **If you have installed it once, you do not neet to install it again.**
+Inside of the project folder, in this case the project name is ` sample_project ` we need to do our installs for our virtual environment! You can make sure ` pipenv ` is properly installed on your machine. _**If you have installed it once, you do not neet to install it again.**_
 
 Windows
 ```text
@@ -30,7 +30,7 @@ iOS
 pip3 install pipenv
 ```
 
-Once you have ` pipenv ` available, you can call on it to install for your virtual environment. **The following commands need to happen for every project you create!**
+Once you have ` pipenv ` available, you can call on it to install for your virtual environment. _**The following commands need to happen for every project you create!**_
 
 Windows & iOS
 ```text
@@ -53,8 +53,8 @@ After completing the installation of Flask, a ` Pipfile ` and ` Pipfile.lock ` s
 
 ![pipfiles](https://github.com/kcwebers/FlaskSetUpGuide/blob/main/screencaps/pipfile.png "pipfiles")
 
-Lastly, to activate your virtual environment, run the command ` pipenv shell `! Your environment will be activated and you should see some indicator at the start of the line in your CLI that has your project name in paranthese [may vary based on CLI]. **If you had to use the alternative command for the installation of flask, you will need that same start of the command here**
+Lastly, to activate your virtual environment, run the command ` pipenv shell `! Your environment will be activated and you should see some indicator at the start of the line in your CLI that has your project name in paranthese [may vary based on CLI]. _**If you had to use the alternative command for the installation of flask, you will need that same start of the command here**_
 
 ![installing and activating virtual environment](https://github.com/kcwebers/FlaskSetUpGuide/blob/main/screencaps/venv.png "installing and activating virtual environment")
 
-To deactivate your virtual environment, run the command ` exit `. **You should ` exit ` your virtual environment when you move onto a new project. Every environment should be unique to the project you are currently working on!
+To deactivate your virtual environment, run the command ` exit `. _**You should ` exit ` your virtual environment when you move onto a new project. Every environment should be unique to the project you are currently working on!**_
