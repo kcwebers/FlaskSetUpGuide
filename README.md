@@ -120,8 +120,27 @@ Make sure you update the ` <title> ` tag for your project!
 
 To run your server, bring your CLI back up. If you have left it as is, your virtual environment should still be active. In the event that you closed out of it, navigate back to you project folder and activate your enviroment.
 
-_**To reactivate a virtual environment, you DO NOT need to reinstall anything. You only need to call the shell command!
+_**To reactivate a virtual environment, you DO NOT need to reinstall anything. You only need to call the shell command!**_
+
 ```text
 pipenv shell
 ```
-**_
+
+In you CLI, with the environment active (check for the parentheses at the end of the line with the project name!), run the following command with the appropriate python extension (`python`, `python3`, or `py`)
+
+```text
+python server.py
+```
+You should see some good feedback, with one warning message that you can ignore.
+
+![running server](https://github.com/kcwebers/FlaskSetUpGuide/blob/main/screencaps/serverrun.png "running server")
+
+And for the grand finale! Navigate to ` http://localhost:5000/ ` to see whatever default message you have in your ` index.html `!
+
+![check index.html file at local host](https://github.com/kcwebers/FlaskSetUpGuide/blob/main/screencaps/check.png "check index.html file at local host")
+
+And voila! You now have a working basic Flask project to build off of!
+
+To stop your server at anytime, in you CLI type the command ` ctrl + c `.
+
+Happy Coding!
