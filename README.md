@@ -18,7 +18,7 @@ Once your project folder has been created, navigate into that folder using the `
 
 ### Step 2 - Creating a virtual environment in your project
 
-Inside of the project folder, in this case the project name is ` sample_project ` we need to do our installs for our virtual environment! You can make sure ` pipenv ` is properly installed on your machine. _**If you have installed it once, you do not neet to install it again.**_
+Inside of the project folder, in this case the project name is ` sample_project ` we need to do our installs for our virtual environment! You can make sure ` pipenv ` is properly installed on your machine. _**If you have installed it once, you do not neet to install it again. ` pip ` installs to your machine, so once it's there it's there!**_
 
 Windows
 ```text
@@ -30,7 +30,7 @@ iOS
 pip3 install pipenv
 ```
 
-Once you have ` pipenv ` available, you can call on it to install for your virtual environment. _**The following commands need to happen for every project you create!**_
+Once you have ` pipenv ` available, you can call on it to install for your virtual environment. _**The following commands need to happen for EVERY PROJECT you create!**_
 
 Windows & iOS
 ```text
