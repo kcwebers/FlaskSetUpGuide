@@ -87,3 +87,5 @@ def index():
 if __name__=="__main__":
     app.run(debug=True)
 ```
+
+Reminder that the first 2 lines _must_ occur first and the last 2 lines _must_ occur last.
