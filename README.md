@@ -117,3 +117,11 @@ Create a default HTML page to match the route that you have added to your ` serv
 Make sure you update the ` <title> ` tag for your project!
 
 ### Step 4 - Run your server!
+
+To run your server, bring your CLI back up. If you have left it as is, your virtual environment should still be active. In the event that you closed out of it, navigate back to you project folder and activate your enviroment.
+
+_**To reactivate a virtual environment, you DO NOT need to reinstall anything. You only need to call the shell command!
+```text
+pipenv shell
+```
+**_
