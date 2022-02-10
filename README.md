@@ -77,10 +77,21 @@ Next up, add this code to your ` server.py ` as a default:
 
 ```PY
 from flask import Flask, render_template, redirect, session, request
+# Flask - this pulls in the framework for our project
+# render_template - this method allows us to hanle rendering actual files instead of just Http Response
+#                   this is required if you want to render you HTML pages
+# redirect - allows us to redirect to a URL that we have built out in our project
+# session - a type of data storage that permeates throughout program
+#           session doesn't contain anything until you tell it to store that information!
+# request - allows us to 'request' information like when we pull information in from our form on the front end
 app = Flask(__name__)
+# creates an instance utilizing the Flask framework and store it as 'app'
+
 
 
 @app.route('/')
+# this is the decorator or annotation for the following code chunk (the following method). 
+# Every route/URL in you project should have a annotation like this
 def index():
     return render_template('index.html')
 
