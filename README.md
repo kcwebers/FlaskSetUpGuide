@@ -98,8 +98,15 @@ def index():
     return render_template('index.html')
     # every route method should return something, in this case we are rendering the given template
 
-
-
+@app.route('/<int:id>/<name>')
+# this route indicates that some information in the URL will be variables!
+# <int:id> - this states that the first variable in the URL is going to be an integer because of the int:
+#            the name of the variable will be "id"      
+# <name> - this variable doesn't have a datatype, so by default it will be recognized as a string and labelled "name"
+def info(id, name):
+# any variables that are passed through the URL MUST be passed through the following method
+    return f"This is the id: {id} and this is the name: {name}";
+    # returning jsut a string or an f-string is the same as sending an HttpResponse!
 
 
 
