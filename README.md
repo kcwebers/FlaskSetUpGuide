@@ -92,13 +92,19 @@ app = Flask(__name__)
 @app.route('/')
 # this is the decorator or annotation for the following code chunk (the following method). 
 # Every route/URL in you project should have a annotation like this
+# translates to: at the route of "/" in our app, we will run the following method
 def index():
+# function names are relatively arbirary, but cannot be used more than once!
     return render_template('index.html')
+    # every route method should return something, in this case we are rendering the given template
 
 
 
 
 
+
+# the following 2 lines are what allow your server to run! 
+# these lines must ALWAYS be the last thing in your server file(s)
 if __name__=="__main__":
     app.run(debug=True)
 ```
