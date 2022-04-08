@@ -86,7 +86,7 @@ from flask import Flask, render_template, redirect, session, request
 # request - allows us to 'request' information like when we pull information in from our form on the front end
 app = Flask(__name__)
 # creates an instance utilizing the Flask framework and store it as 'app'
-
+app.secret_key = "SecretTUnnelllSecretTunnelll"
 
 
 @app.route('/')
